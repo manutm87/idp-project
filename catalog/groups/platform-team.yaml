@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-team
+  title: Platform Engineering Team
+  description: Team responsible for building and maintaining the Internal Developer Platform
+  tags:
+    - platform
+    - devops
+spec:
+  type: team
+  profile:
+    displayName: Platform Engineering Team
+    email: platform-team@example.com
+  children: []
+  members:
+    - manu

@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: manu
+  title: Manu T M
+  description: Senior DevOps Engineer and Platform Engineering Lead
+  tags:
+    - devops
+    - aws
+    - kubernetes
+spec:
+  profile:
+    displayName: Manu T M
+    email: manu_tm@outlook.com
+  memberOf:
+    - platform-team

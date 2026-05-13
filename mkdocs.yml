@@ -1,0 +1,6 @@
+site_name: Demo IDP Platform
+site_description: Internal Developer Platform Documentation
+nav:
+  - Home: index.md
+plugins:
+  - techdocs-core

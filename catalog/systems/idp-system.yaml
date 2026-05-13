@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: idp-platform
+  title: Internal Developer Platform
+  description: The IDP system that provides self-service infrastructure and developer tooling
+  tags:
+    - platform
+    - devops
+    - kubernetes
+  annotations:
+    github.com/project-slug: manutm87/idp-project
+spec:
+  owner: group:platform-team

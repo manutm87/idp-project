@@ -1,0 +1,34 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: idp-api
+  title: IDP Platform API
+  description: REST API for the Internal Developer Platform
+  tags:
+    - rest
+    - platform
+  annotations:
+    github.com/project-slug: manutm87/idp-project
+spec:
+  type: openapi
+  lifecycle: development
+  owner: group:platform-team
+  system: idp-platform
+  definition: |
+    openapi: "3.0.0"
+    info:
+      title: IDP Platform API
+      version: "1.0"
+    paths:
+      /health:
+        get:
+          summary: Health check
+          responses:
+            '200':
+              description: OK
+      /catalog:
+        get:
+          summary: List catalog entities
+          responses:
+            '200':
+              description: OK

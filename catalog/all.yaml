@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: idp-all-components
+  description: All IDP catalog components
+spec:
+  targets:
+    - ./systems/idp-system.yaml
+    - ./apis/idp-api.yaml
+    - ./groups/platform-team.yaml
+    - ./users/manu.yaml
