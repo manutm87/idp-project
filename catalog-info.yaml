@@ -9,7 +9,6 @@ metadata:
   tags:
     - platform
     - devops
-    - kubernetes
 spec:
   type: platform
   lifecycle: development
