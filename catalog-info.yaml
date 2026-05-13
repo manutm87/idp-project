@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: idp-project
+  title: Demo IDP Platform
+  description: Internal Developer Platform built with Backstage, ArgoCD and Grafana
+  annotations:
+    github.com/project-slug: manutm87/idp-project
+  tags:
+    - platform
+    - devops
+    - kubernetes
+spec:
+  type: platform
+  lifecycle: development
+  owner: user:guest
